@@ -1278,3 +1278,73 @@ body{
   top: 30%;
   cursor: pointer;
 }
+
+
+
+@media screen and (max-width: 1024px) {
+  .header .navbar_part{
+    justify-content: left;
+  }
+
+  .header .connexion_part .cnx_link .register .register_btn{
+    padding: 15px 30px;
+  }
+
+  .hero_section .hero_content .hero_text .hero_text_container{
+    height: 75%;
+  }
+
+  .hero_section .hero_content .hero_text .hero_register_btn{
+    width: 35%;
+  }
+
+  .section_calender .calender_text .calender_text_container{
+    height: 75%;
+    width: 90%;
+  }
+
+  .section_calender .calender_text .calender_text_container .calender_button{
+    width: 30%;
+  }
+
+  .section_customers .customer_content .customer_content_container{
+    width: 90%;
+  }
+
+  .section_customers .customer_content .customer_content_container .customer_paragraph{
+    font-size: 15px;
+  }
+
+  .section_commu_updts .commu_updts_text_container{
+    width: 70%;
+  }
+
+  .section_commu_updts .commu_updts_cards .commu_updts_card_content_title{
+    font-size: 16px;
+    width: 98%;
+  }
+
+  .commu_updts_card_content_btn{
+    font-size: 17px;
+    width: 70%;
+  }
+
+
+  .demo .demo_container .demo_title{
+    font-size: 47px;
+  }
+
+  .demo .demo_container .demo_get_btn .demo_btn{
+    width: 150%;
+    right: 30%;
+  }
+
+  .footer .footer_about .footer_logo{
+    justify-content: left;
+  }
+
+  .footer .footer_about .footer_socials{
+    width: 110%;
+  }
+  
+}
